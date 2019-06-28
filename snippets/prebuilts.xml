@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="aosp"
+          fetch="https://github.com/hpnightowl/"
+          revision="refs/heads/panipuri" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" clone-depth="1" remote="aosp" />
+  
+</manifest>
